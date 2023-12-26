@@ -12,15 +12,15 @@ pipeline {
         stage('Build and Restore') {
             steps {
                 dir(path: 'jenkins/code') {
-                    sh 'dotnet build'
-                    sh 'dotnet restore'
+                    bat 'dotnet build'
+                    bat 'dotnet restore'
                 }
             }
         }
         stage('Run') {
             steps {
                 dir(path: 'jenkins/code') {
-                    sh 'dotnet run'
+                    bat 'dotnet run'
                 }
             }
         }
