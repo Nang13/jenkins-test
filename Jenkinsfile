@@ -1,11 +1,11 @@
 pipeline {
   agent { 
         node {
-            label 'my_dotnet_test_1'
+            label 'docker-agent-alpine'
             }
       }
       triggers {
-        pollSCM '*/5  * * * *'
+        pollSCM '*  * * * *'
     }
     stages {
         stage('Hello') {
