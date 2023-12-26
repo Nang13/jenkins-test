@@ -1,33 +1,27 @@
 pipeline {
-    agent { 
-        node {
-            label 'docker-agent-alpine'
-            }
-      }
-    triggers  {
-        pollSCM  '*/5 * * * *'
-      }
+    agent any
+    triggers {
+        pollSCM '*/5 * * * *'
+    }
     stages {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                
             }
         }
-        stage('Build  and Restore') {
+        stage('Build and Restore') {
             steps {
-                cd jenkins
-                cd code
-                dotnet build
-                dotnet restore
-                echo 'Hello World'
+                dir(path: 'jenkins/code') {
+                    sh 'dotnet build'
+                    sh 'dotnet restore'
+                }
             }
         }
         stage('Run') {
             steps {
-                cd jenkins
-                cd code
-                dotnet run
+                dir(path: 'jenkins/code') {
+                    sh 'dotnet run'
+                }
             }
         }
     }
