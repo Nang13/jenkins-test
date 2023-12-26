@@ -16,7 +16,8 @@ pipeline {
         }
         stage('Build  and Restore') {
             steps {
-                cd .\jenkins\code\
+                cd jenkins
+                cd code
                 dotnet build
                 dotnet restore
                 echo 'Hello World'
@@ -24,7 +25,8 @@ pipeline {
         }
         stage('Run') {
             steps {
-                cd .\jenkins\code\
+                cd jenkins
+                cd code
                 dotnet run
             }
         }
