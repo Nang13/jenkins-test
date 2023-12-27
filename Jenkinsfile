@@ -1,34 +1,31 @@
 pipeline {
     agent any
-    enviroment {
+    environment {
         myVersion = '0.9'
         dotnet = 'path\\to\\dotnet.exe'
     }
     tools {
         msbuild '.NET Core 7.0.0'
     }
-    triggers {
-        pollSCM '*/5 * * * *'
-    }
     stages {
-        stage('Hello') {
+        stage('checkout') {
+          steps {
+            bat 'dotnet build'
+          }
+        }
+        stage('restore') {
             steps {
-                echo 'Hello World'
+                bat 'dotnet restore --configfile NuGet.Config'
             }
         }
-        stage('Build and Restore') {
+        stage('build') {
             steps {
-                dir(path: 'jenkins/code') {
-                    bat 'dotnet build'
-                    bat 'dotnet restore'
-                }
+                bat 'dotnet build'
             }
         }
-        stage('Run') {
+        stage('publish') {
             steps {
-                dir(path: 'jenkins/code') {
-                    bat 'dotnet run'
-                }
+              ...
             }
         }
     }
