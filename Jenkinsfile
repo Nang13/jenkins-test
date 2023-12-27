@@ -1,5 +1,12 @@
 pipeline {
     agent any
+    enviroment {
+        myVersion = '0.9'
+        dotnet = 'path\to\dotnet.exe'
+    }
+    tools {
+        msbuild '.NET Core 7.0.0'
+    }
     triggers {
         pollSCM '*/5 * * * *'
     }
