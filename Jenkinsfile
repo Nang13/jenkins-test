@@ -25,7 +25,7 @@ pipeline {
         }
         stage('publish') {
             steps {
-              ...
+ 
             }
         }
     }
