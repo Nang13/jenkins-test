@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/Nang13/jenkins-test.git'
+                git branch : 'main' , credentialsId: '839d6120-6449-40e8-a1ec-b824be566c31', url: 'https://github.com/Nang13/jenkins-test.git'
             }
         }
     }
