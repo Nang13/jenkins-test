@@ -1,32 +1,10 @@
 pipeline {
     agent any
-    environment {
-        myVersion = '0.9'
-        dotnet = 'path\\to\\dotnet.exe'
-    }
-    tools {
-        msbuild '.NET Core 7.0.0'
-    }
     stages {
-        stage('checkout') {
-          steps {
-            bat 'dotnet build'
-          }
-        }
-        stage('restore') {
+        stage('Clone') {
             steps {
-                bat 'dotnet restore --configfile NuGet.Config'
+                git 'https://github.com/Nang13/jenkins-test.git'
             }
         }
-        stage('build') {
-            steps {
-                bat 'dotnet build'
-            }
-        }
-        stage('publish') {
-            steps {
- 
-            }
-        }
-    }
+   }
 }
