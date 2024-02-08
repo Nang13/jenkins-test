@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\Practise_Coding\\testcode4\\Jenkins3\\jenkins-test\\jenkins\\code\\code.csproj": {}
+    "C:\\Code\\jenkins\\jenkins_test\\jenkins-test\\jenkins\\code\\code.csproj": {}
   },
   "projects": {
-    "C:\\Code\\Practise_Coding\\testcode4\\Jenkins3\\jenkins-test\\jenkins\\code\\code.csproj": {
+    "C:\\Code\\jenkins\\jenkins_test\\jenkins-test\\jenkins\\code\\code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\Practise_Coding\\testcode4\\Jenkins3\\jenkins-test\\jenkins\\code\\code.csproj",
+        "projectUniqueName": "C:\\Code\\jenkins\\jenkins_test\\jenkins-test\\jenkins\\code\\code.csproj",
         "projectName": "code",
-        "projectPath": "C:\\Code\\Practise_Coding\\testcode4\\Jenkins3\\jenkins-test\\jenkins\\code\\code.csproj",
+        "projectPath": "C:\\Code\\jenkins\\jenkins_test\\jenkins-test\\jenkins\\code\\code.csproj",
         "packagesPath": "C:\\Users\\manda\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\Practise_Coding\\testcode4\\Jenkins3\\jenkins-test\\jenkins\\code\\obj\\",
+        "outputPath": "C:\\Code\\jenkins\\jenkins_test\\jenkins-test\\jenkins\\code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
