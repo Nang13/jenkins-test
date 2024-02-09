@@ -27,6 +27,110 @@
           }
         }
       },
+      "Microsoft.ICU.ICU4C.Runtime/68.2.0.9": {
+        "dependencies": {
+          "Microsoft.ICU.ICU4C.Runtime.linux-arm64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.linux-x64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.win-arm64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.win-x64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.win-x86": "68.2.0.9"
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.linux-arm64/68.2.0.9": {
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libicudata.so.68.2.0.9": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libicui18n.so.68.2.0.9": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libicuuc.so.68.2.0.9": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.linux-x64/68.2.0.9": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libicudata.so.68.2.0.9": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libicui18n.so.68.2.0.9": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libicuuc.so.68.2.0.9": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.win-arm64/68.2.0.9": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/icudt68.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "68.2.0.9"
+          },
+          "runtimes/win-arm64/native/icuin68.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "68.2.0.9"
+          },
+          "runtimes/win-arm64/native/icuuc68.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "68.2.0.9"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.win-x64/68.2.0.9": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/icudt68.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "68.2.0.9"
+          },
+          "runtimes/win-x64/native/icuin68.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "68.2.0.9"
+          },
+          "runtimes/win-x64/native/icuuc68.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "68.2.0.9"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.win-x86/68.2.0.9": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/icudt68.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "68.2.0.9"
+          },
+          "runtimes/win-x86/native/icuin68.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "68.2.0.9"
+          },
+          "runtimes/win-x86/native/icuuc68.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "68.2.0.9"
+          }
+        }
+      },
       "Microsoft.NET.Test.Sdk/17.5.0": {
         "dependencies": {
           "Microsoft.CodeCoverage": "17.5.0",
@@ -1024,6 +1128,7 @@
       "xunit.runner.visualstudio/2.4.5": {},
       "code/1.0.0": {
         "dependencies": {
+          "Microsoft.ICU.ICU4C.Runtime": "68.2.0.9",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4"
         },
         "runtime": {
@@ -1051,6 +1156,48 @@
       "sha512": "sha512-6FQo0O6LKDqbCiIgVQhJAf810HSjFlOj7FunWaeOGDKxy8DAbpHzPk4SfBTXz9ytaaceuIIeR6hZgplt09m+ig==",
       "path": "microsoft.codecoverage/17.5.0",
       "hashPath": "microsoft.codecoverage.17.5.0.nupkg.sha512"
+    },
+    "Microsoft.ICU.ICU4C.Runtime/68.2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+JnnRV3LguprgmGBxhPJNvSietNRn5SxQ1A7fYTaTxWJhQXC3BD42UCYa4kPXF13H4O2PV0DdGwx1Ro38dZtmw==",
+      "path": "microsoft.icu.icu4c.runtime/68.2.0.9",
+      "hashPath": "microsoft.icu.icu4c.runtime.68.2.0.9.nupkg.sha512"
+    },
+    "Microsoft.ICU.ICU4C.Runtime.linux-arm64/68.2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-buZexq1QyLhhAseAJo/j6YkJifiMPxOYU8G05N7LIKWRM1rJ9Ufag7MYcY7d7X13+fS/Rm3CuuVsWEvB3T5pzg==",
+      "path": "microsoft.icu.icu4c.runtime.linux-arm64/68.2.0.9",
+      "hashPath": "microsoft.icu.icu4c.runtime.linux-arm64.68.2.0.9.nupkg.sha512"
+    },
+    "Microsoft.ICU.ICU4C.Runtime.linux-x64/68.2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EzSwdrljzwOhqyW0l68J0aJSkt+2N9KwH10+nnNinQFCUXor1zdPmxZRTBVaAAATEzcmruWTjwq1ij61oB8orQ==",
+      "path": "microsoft.icu.icu4c.runtime.linux-x64/68.2.0.9",
+      "hashPath": "microsoft.icu.icu4c.runtime.linux-x64.68.2.0.9.nupkg.sha512"
+    },
+    "Microsoft.ICU.ICU4C.Runtime.win-arm64/68.2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LJE0IfJawQDaEl/JN1DLqf5Z9gvDvOPw0ntcKzJYhl1Xv81xon0a5ObU9/DrAVF6BL/AGKqYHuC7bX6zrcT2YA==",
+      "path": "microsoft.icu.icu4c.runtime.win-arm64/68.2.0.9",
+      "hashPath": "microsoft.icu.icu4c.runtime.win-arm64.68.2.0.9.nupkg.sha512"
+    },
+    "Microsoft.ICU.ICU4C.Runtime.win-x64/68.2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4gkh2HW9m2JDM+87otmrukivYP/dedXZCdpnxbBft48eeemwDR12coMYEFbV8xToA3m95MQYFQPxS6a4JaRyyA==",
+      "path": "microsoft.icu.icu4c.runtime.win-x64/68.2.0.9",
+      "hashPath": "microsoft.icu.icu4c.runtime.win-x64.68.2.0.9.nupkg.sha512"
+    },
+    "Microsoft.ICU.ICU4C.Runtime.win-x86/68.2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fGnm7nxHhJkea7dgwLX4IGO8K1W0FHs5290FyDQmbB1xBuCFv0sFl308hIajSC1WVvuFbbVpRMBMxQjtIEOnzg==",
+      "path": "microsoft.icu.icu4c.runtime.win-x86/68.2.0.9",
+      "hashPath": "microsoft.icu.icu4c.runtime.win-x86.68.2.0.9.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/17.5.0": {
       "type": "package",

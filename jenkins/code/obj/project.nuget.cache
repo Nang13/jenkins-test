@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "17OOfYIgWm7iqUA6qAd32oaTsNUIoDw/XF7SkOBBvlEDfldLZqoCM/ydawEMUPlbc9CbcofGsT1flrze7Fs4sw==",
+  "dgSpecHash": "vWNlqG33b+3nxFxZR1zrgP/lDG1lE7BK2hgG3sm1xjXtwB8H+/RH5cLpWnQkBEfsU5MAAtl1+DGL7HqY3jv3dw==",
   "success": true,
   "projectFilePath": "C:\\Code\\jenkins\\jenkins_test\\jenkins-test\\jenkins\\code\\code.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime\\68.2.0.9\\microsoft.icu.icu4c.runtime.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime.linux-arm64\\68.2.0.9\\microsoft.icu.icu4c.runtime.linux-arm64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime.linux-x64\\68.2.0.9\\microsoft.icu.icu4c.runtime.linux-x64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime.win-arm64\\68.2.0.9\\microsoft.icu.icu4c.runtime.win-arm64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime.win-x64\\68.2.0.9\\microsoft.icu.icu4c.runtime.win-x64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime.win-x86\\68.2.0.9\\microsoft.icu.icu4c.runtime.win-x86.68.2.0.9.nupkg.sha512",
     "C:\\Users\\manda\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
   ],
   "logs": []

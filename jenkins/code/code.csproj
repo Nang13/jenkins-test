@@ -7,10 +7,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	  
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />
+	  <PackageReference Include="Microsoft.ICU.ICU4C.Runtime" Version="68.2.0.9" />
+	  <RuntimeHostConfigurationOption
+  Condition="$(RuntimeIdentifier.StartsWith('linux')) Or $(RuntimeIdentifier.StartsWith('win')) Or ('$(RuntimeIdentifier)' == '' And !$([MSBuild]::IsOSPlatform('osx')))"
+  Include="System.Globalization.AppLocalIcu"
+  Value="68.2.0.9" />
   </ItemGroup>
 
 </Project>

@@ -2,6 +2,101 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Microsoft.ICU.ICU4C.Runtime/68.2.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ICU.ICU4C.Runtime.linux-arm64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.linux-x64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.win-arm64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.win-x64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.win-x86": "68.2.0.9"
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.linux-arm64/68.2.0.9": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libicudata.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libicui18n.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libicuuc.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.linux-x64/68.2.0.9": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libicudata.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libicui18n.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libicuuc.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.win-arm64/68.2.0.9": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/icudt68.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/icuin68.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/icuuc68.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.win-x64/68.2.0.9": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/icudt68.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/icuin68.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/icuuc68.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.win-x86/68.2.0.9": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/icudt68.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/icuin68.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/icuuc68.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {
         "type": "package",
         "build": {
@@ -12,6 +107,99 @@
     }
   },
   "libraries": {
+    "Microsoft.ICU.ICU4C.Runtime/68.2.0.9": {
+      "sha512": "+JnnRV3LguprgmGBxhPJNvSietNRn5SxQ1A7fYTaTxWJhQXC3BD42UCYa4kPXF13H4O2PV0DdGwx1Ro38dZtmw==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.nuspec",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime.linux-arm64/68.2.0.9": {
+      "sha512": "buZexq1QyLhhAseAJo/j6YkJifiMPxOYU8G05N7LIKWRM1rJ9Ufag7MYcY7d7X13+fS/Rm3CuuVsWEvB3T5pzg==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime.linux-arm64/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.linux-arm64.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.linux-arm64.nuspec",
+        "runtimes/linux-arm64/native/libicudata.so.68.2.0.9",
+        "runtimes/linux-arm64/native/libicui18n.so.68.2.0.9",
+        "runtimes/linux-arm64/native/libicuuc.so.68.2.0.9",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime.linux-x64/68.2.0.9": {
+      "sha512": "EzSwdrljzwOhqyW0l68J0aJSkt+2N9KwH10+nnNinQFCUXor1zdPmxZRTBVaAAATEzcmruWTjwq1ij61oB8orQ==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime.linux-x64/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.linux-x64.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.linux-x64.nuspec",
+        "runtimes/linux-x64/native/libicudata.so.68.2.0.9",
+        "runtimes/linux-x64/native/libicui18n.so.68.2.0.9",
+        "runtimes/linux-x64/native/libicuuc.so.68.2.0.9",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime.win-arm64/68.2.0.9": {
+      "sha512": "LJE0IfJawQDaEl/JN1DLqf5Z9gvDvOPw0ntcKzJYhl1Xv81xon0a5ObU9/DrAVF6BL/AGKqYHuC7bX6zrcT2YA==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime.win-arm64/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.win-arm64.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.win-arm64.nuspec",
+        "runtimes/win-arm64/native/icudt68.dll",
+        "runtimes/win-arm64/native/icuin68.dll",
+        "runtimes/win-arm64/native/icuuc68.dll",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime.win-x64/68.2.0.9": {
+      "sha512": "4gkh2HW9m2JDM+87otmrukivYP/dedXZCdpnxbBft48eeemwDR12coMYEFbV8xToA3m95MQYFQPxS6a4JaRyyA==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime.win-x64/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.win-x64.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.win-x64.nuspec",
+        "runtimes/win-x64/native/icudt68.dll",
+        "runtimes/win-x64/native/icuin68.dll",
+        "runtimes/win-x64/native/icuuc68.dll",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime.win-x86/68.2.0.9": {
+      "sha512": "fGnm7nxHhJkea7dgwLX4IGO8K1W0FHs5290FyDQmbB1xBuCFv0sFl308hIajSC1WVvuFbbVpRMBMxQjtIEOnzg==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime.win-x86/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.win-x86.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.win-x86.nuspec",
+        "runtimes/win-x86/native/icudt68.dll",
+        "runtimes/win-x86/native/icuin68.dll",
+        "runtimes/win-x86/native/icuuc68.dll",
+        "version.txt"
+      ]
+    },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {
       "sha512": "aKxpRAUIxDrnSnyr7xJWGixOBgsB7Z4oHpWRkpRzzq04kfze4mN7944gRc4X9H2U5KG3A/btF74kavkO8KXqCg==",
       "type": "package",
@@ -96,6 +284,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Microsoft.ICU.ICU4C.Runtime >= 68.2.0.9",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.4"
     ]
   },
@@ -138,6 +327,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.ICU.ICU4C.Runtime": {
+            "target": "Package",
+            "version": "[68.2.0.9, )"
+          },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.19.4, )"

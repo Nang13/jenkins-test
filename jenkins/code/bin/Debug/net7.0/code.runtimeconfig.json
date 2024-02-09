@@ -4,6 +4,11 @@
     "framework": {
       "name": "Microsoft.NETCore.App",
       "version": "7.0.0"
+    },
+    "configProperties": {
+      "System.Globalization.AppLocalIcu": "68.2.0.9",
+      "System.Globalization.Invariant": true,
+      "System.Globalization.PredefinedCulturesOnly": true
     }
   }
 }

@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "YL4eR10YCfyGH16NYLSIHL4QeeFpPwpeG9jediClZDq/tAQ5CDMNFWvFdRcCuVUnj75G26gUdVK3aW4oqExqyA==",
+  "dgSpecHash": "Gi/4QVr9nEropcMtAz6UThZzfjyEz6WC5htl7WrmS6uxnXoUBaei6D71e+fR7P2hfgPpJgDUjElTqys27xadEQ==",
   "success": true,
   "projectFilePath": "C:\\Code\\jenkins\\jenkins_test\\jenkins-test\\jenkins\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manda\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\manda\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime\\68.2.0.9\\microsoft.icu.icu4c.runtime.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime.linux-arm64\\68.2.0.9\\microsoft.icu.icu4c.runtime.linux-arm64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime.linux-x64\\68.2.0.9\\microsoft.icu.icu4c.runtime.linux-x64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime.win-arm64\\68.2.0.9\\microsoft.icu.icu4c.runtime.win-arm64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime.win-x64\\68.2.0.9\\microsoft.icu.icu4c.runtime.win-x64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\manda\\.nuget\\packages\\microsoft.icu.icu4c.runtime.win-x86\\68.2.0.9\\microsoft.icu.icu4c.runtime.win-x86.68.2.0.9.nupkg.sha512",
     "C:\\Users\\manda\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "C:\\Users\\manda\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\manda\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
